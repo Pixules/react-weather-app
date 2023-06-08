@@ -1,0 +1,33 @@
+.Weather {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(248, 213, 214) 0%,
+    rgb(243, 242, 229) 90%
+  );
+  padding: 15px;
+  border: 2px solid #5e596c;
+  border-radius: 20px;
+}
+
+.Weather .overview {
+  margin-bottom: 25px;
+}
+
+.Weather .weather-temperature img {
+  margin-right: 10px;
+  height: 68px;
+  width: 68px;
+}
+
+.Weather .weather-temperature strong {
+  color: rgb(33, 33, 33);
+  font-size: 68px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.Weather .weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -30px;
+}

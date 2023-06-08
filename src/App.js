@@ -1,13 +1,14 @@
-import "./App.css";
+import Weather from "./Weather";
 
-function App() {
-  return (
+import "./Weather.css";
+
+const rootElement = document.getElementById("root");
+const root = createRoot(rootElement);
+
+root.render(
+  <StrictMode>
     <div className="App">
-      <header className="App-header">
-        <h1>Hello World</h1>
-      </header>
+      <Weather />
     </div>
-  );
-}
-
-export default App;
+  </StrictMode>
+);
